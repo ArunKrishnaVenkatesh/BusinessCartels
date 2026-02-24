@@ -57,6 +57,23 @@ header {
     margin-top: 10px;
 }
 
+.event-info {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+}
+
+.event-info td {
+    padding: 12px 20px;
+    border-bottom: 1px solid #333;
+}
+
+.event-info td:first-child {
+    text-align: left;
+    color: #aaa;
+}
+
 .countdown {
     margin-top: 25px;
     font-size: 26px;
@@ -174,12 +191,32 @@ footer {
 
 <section class="section">
     <h2>Event Information</h2>
-    <p>
-        📅 <strong>Date:</strong> 1st March 2026 <br><br>
-        📍 <strong>Venue:</strong> TBA <br><br>
-        👥 <strong>Team Size:</strong> 2–3 Members <br><br>
-        📝 <strong>Registration Deadline:</strong> 28th February 2026
-    </p>
+    <table class="event-info">
+        <tr>
+            <td>💰 Prize Pool</td>
+            <td>₹10,000+</td>
+        </tr>
+        <tr>
+            <td>📍 Venue</td>
+            <td>MMMC 3 A</td>
+        </tr>
+        <tr>
+            <td>📅 Day 1</td>
+            <td>1st March (Sunday)<br>10:00 AM – 5:00 PM</td>
+        </tr>
+        <tr>
+            <td>📅 Day 2</td>
+            <td>2nd March (Monday)<br>5:30 PM – 8:30 PM</td>
+        </tr>
+        <tr>
+            <td>👥 Team Size</td>
+            <td>2–3 Members</td>
+        </tr>
+        <tr>
+            <td>📝 Registration Deadline</td>
+            <td>28th February 2026</td>
+        </tr>
+    </table>
 </section>
 
 <section class="section">

@@ -57,6 +57,25 @@ header {
     margin-top: 10px;
 }
 
+.registration-alert {
+    color: #ff6b6b;
+    font-weight: bold;
+    font-size: 26px;
+    animation: flash 1.5s infinite;
+    margin: 15px 0;
+}
+
+@keyframes flash {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
+@media (max-width: 600px) {
+    .registration-alert {
+        font-size: 20px;
+    }
+}
+
 .event-info {
     margin: 20px auto;
     border-collapse: collapse;
@@ -164,6 +183,7 @@ footer {
         <img src="logonobg.png" alt="Business Cartel" class="logo">
     </h1>
     <p class="tagline">Strategy. Influence. Market Control.</p>
+    <p class="registration-alert">Registrations closing on 25th March 1700 hrs</p>
 
     <div class="countdown" id="countdown"></div>
 
